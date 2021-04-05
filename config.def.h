@@ -5,10 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:size=12";
+static char *font = "Fira Code:size=14";
 /* Spare fonts */
 static char *font2[] = {
-  "JoyPixels:pixelsize=14:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
