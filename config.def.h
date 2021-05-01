@@ -85,39 +85,39 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 2;
 
 /* bg opacity */
-float alpha = 0.88;  //< alpha value used when the window is focused.
-float alphaUnfocussed = 0.70;  //< alpha value used when the focus is lost
+float alpha = 1.00;  //< alpha value used when the window is focused.
+float alphaUnfocussed = 1.00;  //< alpha value used when the focus is lost
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#000000",  /* Black */
-	"#cc0000",  /* Red */
-	"#4e9a06",  /* Green */
-	"#c4a000",  /* Yellow */
-	"#3465a4",  /* Blue */
-	"#75507b",  /* Purple */
-	"#06989a",  /* Cyan */
-	"#d3d7cf",  /* White */
+	"#282828",  /* Black */
+	"#cc241d",  /* Red */
+	"#98971a",  /* Green */
+	"#d79921",  /* Yellow */
+	"#458588",  /* Blue */
+	"#b16286",  /* Purple */
+	"#689d6a",  /* Cyan */
+	"#a89984",  /* White */
 
 	/* 8 bright colors */
-	"#555753",  /* Gray */
-	"#ef2929",  /* Red */
-	"#8ae234",  /* Green */
-	"#fce94f",  /* Yellow */
-	"#729fcf",  /* Blue */
-	"#ad7fa8",  /* Purple */
-	"#34e2e2",  /* Cyan */
-	"#eeeeec",  /* White */
+	"#928374",  /* Gray */
+	"#fb4934",  /* Red */
+	"#b8bb26",  /* Green */
+	"#fabd2f",  /* Yellow */
+	"#83a598",  /* Blue */
+	"#d3869b",  /* Purple */
+	"#8ec07c",  /* Cyan */
+	"#ebdbb2",  /* White */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#eeeeec",  /* defaultfg, defaultcs */
-	"#2e203a"   /* defaultbg, defaultrcs */
+	"#e1e1e1",  /* defaultfg, defaultcs */
+	"#282828",  /* defaultbg, defaultrcs */
 };
 
 
