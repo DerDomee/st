@@ -8,6 +8,7 @@
 static char *font = "Fira Code:size=14";
 /* Spare fonts */
 static char *font2[] = {
+    "JoyPixels:pixelsize=15:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
